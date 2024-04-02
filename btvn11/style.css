@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.blur {
+    width: 100%;
+    height: 300px;
+    backdrop-filter: blur(20px);
+}
+
+.tcbckgrd {
+    width: 100%;
+    height: 300px;
+    background: url(img/zhuojun.jpg) no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+.topcontent {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-100%);
+}
+
+.topcontent h1 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: rgb(248, 194, 24);
+    font-size: 50px;
+}
+
+.topcontent h3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.testimony {
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.ttext {
+    margin-left: 10px;
+}
+
+.ttext p {
+    font-weight: 500;
+    color: #fff;
+}
+
+.circle1 {
+    width: 15px;
+    height: 15px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.circle2 {
+    width: 15px;
+    height: 15px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+
+.carousell {
+    display: flex;
+    width: 60px;
+    justify-content: space-between;
+}
+
+.contacts {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+
+.contact {
+    width: auto;
+    height: auto;
+}
+
+.contact p {
+    text-align: center;
+}
+
+.contact img {
+    margin-bottom: 10px;
+}
+
+.contact span {
+    display: flex;
+    margin-top: 20px;
+}
+
+.num {
+    margin-left: 5px;
+    color: rgb(103, 143, 192);
+}
+
+
+.title {
+    font-size: 50px;
+    color: rgb(0, 114, 189);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.desc {
+    font-size: 30px;
+    text-align: center;
+}
+
+.bttmcontent {
+    transform: translateY(-60%);
+}

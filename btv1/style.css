@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: BeVietnam;
+    src: url(./Be_Vietnam_Pro/BeVietnamPro-Regular.ttf);
+}
+
+.container {
+    display: flex;
+}
+
+.container img {
+    width: 50%;
+    height: auto;
+}
+
+.container div {
+    margin: 20px;
+    background-color: gray;
+    width: 400px;
+    height: 300px;
+}
+
+.container .order {
+    color: white;
+    background-color: orange;
+    width: 70px;
+    height: 30px;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+.container .queue {
+    color: orange;
+    background-color: white;
+    width: 130px;
+    height: 30px;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+.container h3 {
+    font-family: BeVietnam;
+    font-weight: 1000px;
+}
+
+.container p {
+    font-family: BeVietnam;
+    font-weight: 400px;
+    font-size: medium;
+}
+
+.container button {
+    font-family: BeVietnam;
+    font-size: small;
+}

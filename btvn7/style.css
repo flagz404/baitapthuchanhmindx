@@ -1,0 +1,121 @@
+* {
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    width: 1344px;
+    height: fit-content;
+    background: #e5f4ff;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h1 {
+    text-align: center;
+}
+
+.filters {
+    width: fit-content;
+    height: auto;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.filters div p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.filters div {
+    width: fit-content;
+    height: 36px;
+    border: 2px solid #a9d7f1;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 16px;
+}
+
+#1 {
+    margin-left: -16px;
+}
+
+.product img {
+    height: 360px;
+    width: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.product{
+    height: 494px;
+    width: fit-content;
+    background: #fffef9;
+    border-radius: 10px;
+}
+
+.product p {
+    text-align: center;
+}
+
+.rating {
+    color: #dd3333;
+    width: 309px;
+    display: flex;
+    justify-content: center;
+}
+
+span.offset {
+    transform: translateY(20%);
+}
+
+.tooltip {
+    height: 60px;
+    width: 170px;
+    background-color: rgba(169, 215, 241, 0.432);
+    padding-left: 5px;
+    border-radius: 5px;
+    transform: translateY(-300%);
+    margin-left: 12px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto;
+    grid-gap: 26px;
+}
+
+.read-more {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.read-more button {
+    height: 40px;
+    width: 320px;
+    background: transparent;
+    border: 1px solid #545dda;
+    color: #545dda;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}

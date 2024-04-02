@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.first {
+  background-color: red;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.second {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+}
+
+.third {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
