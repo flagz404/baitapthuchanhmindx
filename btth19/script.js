@@ -29,6 +29,8 @@ function get_url(formData) {
   })
     .then((res) => res.json())
     .then((data) => {
-      console.log(data);
+      let url = data[0]['symbol'][0]['data']
+      noti.textContent = 'GO TO WEBSITE'
+      window.open(url, 'blank')
     });
 }
